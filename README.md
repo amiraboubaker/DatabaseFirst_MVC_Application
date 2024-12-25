@@ -6,7 +6,8 @@ Welcome to the **DatabaseFirst_MVC_Application**! 🎉 This project demonstrates
 ### 🛠️ Generating the `MenuContext` and Models  
 To get started, generate the database context and models in just one simple step! Here's the command you need to run in the **NuGet Package Manager Console**:  
 
-### Nuget Console
+### In Nuget Console:
+Tap this command : 
 #### Scaffold-DbContext "Data Source=YourDesktop_Name;Initial Catalog=Menu;Integrated Security=True;Pooling=False;Encrypt=False;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models -DataAnnotations
 ✨ Quick Tips:
 💡 ContextDir: Places the generated context file in the Data folder for better organization.
